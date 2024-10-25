@@ -1,6 +1,6 @@
 import pandas as pd
 import matplotlib.pyplot as plt
-
+# Day 1
 # Load the Iris dataset
 file_path = 'Iris.csv'  # Replace with the path to your CSV file
 iris = pd.read_csv(file_path)
