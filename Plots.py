@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 file_path = 'Iris.csv'  # Replace with the path to your CSV file
 iris = pd.read_csv(file_path)
 
-# Drop the 'Id' column as it's not needed for analysis
+# Drop the 'Id' column as i t's not needed for analysis
 iris = iris.drop(columns=['Id'])
 
 # Grouping the data by species to calculate the mean for each measurement
