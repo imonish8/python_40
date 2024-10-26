@@ -16,9 +16,9 @@ plt.figure(figsize=(10, 6))  # Step 2: Figure and Axes
 
 # Line plot for each feature's average value across species
 plt.plot(species_avg.index, species_avg['SepalLengthCm'], label='Sepal Length', marker='o')
-plt.plot(species_avg.index, species_avg['SepalWidthCm'], label='Sepal Width', marker='o')
-plt.plot(species_avg.index, species_avg['PetalLengthCm'], label='Petal Length', marker='o')
-plt.plot(species_avg.index, species_avg['PetalWidthCm'], label='Petal Width', marker='o')
+#plt.plot(species_avg.index, species_avg['SepalWidthCm'], label='Sepal Width', marker='o')
+#plt.plot(species_avg.index, species_avg['PetalLengthCm'], label='Petal Length', marker='o')
+#plt.plot(species_avg.index, species_avg['PetalWidthCm'], label='Petal Width', marker='o')
 
 # Step 3: Title, Labels, and Legends
 plt.title("Average Measurements of Iris Species")
